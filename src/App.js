@@ -78,7 +78,7 @@ const App= () => {
     }
 
   return (
-    <Router basename="/task-tracker/">
+    <Router>
       <div className='container'>
       <Header title = 'Task Tracker' showAdd = {() => setShowAddTask(!showAddTask)} showAddTask = {showAddTask}/>
         <Routes>
