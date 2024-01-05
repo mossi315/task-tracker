@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://mossi315.github.io/to-do-list",
+  "homepage": "https://mossi315.github.io/task-tracker",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
