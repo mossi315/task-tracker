@@ -6,7 +6,7 @@ const Header = ({title, showAdd, showAddTask}) => {
   return (
    <header className='header'>
     <h1>{title}</h1>
-    {location.pathname==='/' &&(
+    {location.pathname==='/task-tracker' &&(
     <Button text = {showAddTask ? 'close': 'Add'} color = {showAddTask ? 'red' :'green'} onClick = {showAdd}/>
     )}
    </header>

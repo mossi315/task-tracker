@@ -82,7 +82,7 @@ const App= () => {
       <div className='container'>
       <Header title = 'Task Tracker' showAdd = {() => setShowAddTask(!showAddTask)} showAddTask = {showAddTask}/>
         <Routes>
-        <Route path="/" exact 
+        <Route path="/task-tracker" exact 
           element={
             <>
               {showAddTask && <AddTask onAdd={addTask}/>}
